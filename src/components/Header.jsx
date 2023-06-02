@@ -1,7 +1,10 @@
-function Header() {
+import './Header.css'
+
+const Header = () => {
+
     return (
-      <div>
-        <h1>Code Qui Peut/ La Boulangerie Du Code</h1>
+      <div className="title">
+        <h1>Code Qui Peut</h1>
       </div>
     );
   }
