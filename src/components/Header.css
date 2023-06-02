@@ -1,14 +1,14 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
+* {
+box-sizing: border-box;
+margin: 0;
+}
 
-  .title {
+.title {
     display: flex;
     flex-direction: flex-end;
-    
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
   }
 
 

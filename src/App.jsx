@@ -1,5 +1,6 @@
 
 import Header from './components/Header'
+import Title from './components/Title'
 import './App.css'
 
 
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <Title />
     </div>
 
 
