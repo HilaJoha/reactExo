@@ -11,5 +11,16 @@ margin: 0;
 
   }
 
+.logo {
+  display: flex;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: 'Rubik Puddles', cursive;
+  color: rgb(79, 56, 45);
+}
+
 
   

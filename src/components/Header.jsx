@@ -3,10 +3,10 @@ import './Header.css'
 const Header = () => {
 
     return (
-      <div className="title">
-        <h1>Code Qui Peut</h1>
-      </div>
+        <div className="logo">
+            <h3>Code qui Peut</h3>
+        </div>
     );
-  }
-  
-  export default Header;
+};
+
+export default Header;

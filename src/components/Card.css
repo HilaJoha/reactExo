@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  
+    }
+
+    h1 {
+
+        font-family: 'Press Start 2P', cursive;
+        color: rgb(148, 7, 173);
+        font-size: 50px;
+        
+    
+    }
+
+    h2 {
+
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        
+    }
+
+    p{
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .title-input h1 {
+        color: rgb(237, 22, 237);
+    }
+
+    .title-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        height: 50vh;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    #myInput {
+        width: 50vw;
+        height: 8vh;
+        border-radius: 10px;
+        border: solid pink 2px;;
+        margin: 20px;
+    }
+
+
+    .bat-img {
+
+        display: flex;
+        width: 400px;
+        height: 250px;
+        border-radius: 20px;
+        align-items: center;
+       
+    }
+
+    .card-container {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100vw;
+        margin: auto;
+
+    }
+    
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow:  5px 2px 10px rgb(255, 0, 174);
+        padding: 30px;
+        margin: 30px;
+        height: 450px;
+        width: 450px;
+    
+    }
+
+    figure {
+
+        padding: 30px;
+    }
+
+   
