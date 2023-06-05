@@ -1,31 +1,32 @@
 import React from 'react';
-import Filter from './Filter.css'
+import './Filter.css';
 
-const Filter = ({ filter, handleFilterChange }) => {
+const Filter = ({ filter, handleFilterChange, handleReset }) => {
   return (
-    
     <div className="filter-container">
-      <label>Filter by sexe:</label>
-      <div>
+      <div className="buttons">
         <button
           className={filter === '' ? 'active' : ''}
           onClick={() => handleFilterChange('')}
         >
-          All
+          Tous 
         </button>
         <button
           className={filter === 'Mâle' ? 'active' : ''}
           onClick={() => handleFilterChange('Mâle')}
         >
-          Mâle
+          Mâles
         </button>
         <button
           className={filter === 'Femelle' ? 'active' : ''}
           onClick={() => handleFilterChange('Femelle')}
         >
-          Femelle
+          Femelles
         </button>
       </div>
+      <button className="reset-button" onClick={handleReset}>
+        Reset
+      </button>
     </div>
   );
 };

@@ -1,6 +1,29 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+
+}
 
 button {
 
-    background-color: rgb(195, 49, 74);
-    color: gray;
+    background-color: aqua;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(148, 7, 173);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    border: none;
+    box-shadow: 2px 2px 10px 2px;
 }

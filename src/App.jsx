@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Filter from './components/Filter';
 import Header from './components/Header';
 import Title from './components/Title';
 import './App.css'
@@ -94,29 +95,28 @@ import Card from './components/Card';
      
     ];
   
-   
-  const [filter, setFilter] = useState('');
+    const [filter, setFilter] = useState('');
 
-  const handleFilterChange = (filterValue) => {
-    setFilter(filterValue);
-  };
-
-  const filteredBatList = batList.filter(
-    (bat) => filter === '' || bat.sexe.toLowerCase() === filter.toLowerCase()
-  );
-
-  return (
-    <div>
-      <Header />
-      <Title />
-     
-      <div className="card-container">
-        {filteredBatList.map((bat, index) => (
-          <Card key={index} bat={bat} />
-        ))}
+    const handleFilterChange = (filterValue) => {
+      setFilter(filterValue);
+    };
+  
+    const filteredBatList = batList.filter(
+      (bat) => filter === '' || bat.sexe.toLowerCase() === filter.toLowerCase()
+    );
+  
+    return (
+      <div>
+        <Header />
+        <Title />
+        <Filter filter={filter} handleFilterChange={handleFilterChange} />
+        <div className="card-container">
+          {filteredBatList.map((bat, index) => (
+            <Card key={index} bat={bat} />
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
-
-export default App;
+    );
+  };
+  
+  export default App;

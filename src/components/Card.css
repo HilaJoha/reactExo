@@ -17,11 +17,17 @@
 
         font-family: 'Press Start 2P', cursive;
         font-size: 20px;
+        padding: 10px;
         
     }
 
     p{
         font-family: 'Space Grotesk', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgb(148, 7, 173);
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .title-input h1 {
@@ -29,12 +35,16 @@
     }
 
     .title-input {
+
+        background-color:rgb(187, 247, 247);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 50px;
         height: 50vh;
+        border-radius: 50%;
+        margin: 50px;
+
     }
 
     input {

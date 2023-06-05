@@ -9,7 +9,7 @@ const Card = ({ bat }) => {
       <img className="bat-img" src={imgSrc} alt={name} />
      
       <div className="card-info">
-      <h2 style={{ color }}>{name}</h2>
+        <h2 style={{ color }}>{name}</h2>
         <p>Age: {age}</p>
         <p>Sexe: {sexe}</p>
         <p>Taille: {taille}</p>
